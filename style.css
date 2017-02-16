@@ -8,7 +8,7 @@
 html {
 	height: 100%;
 	background: white;
-	background: radial-gradient(circle, #fff 20%, #ccc);
+	background: radial-gradient(circle, #fff 20%, #dbf2ff);
 	background-size: cover;
 }
 
@@ -27,6 +27,10 @@ html {
 	float: left;
 }
 
+.buttons, .top {
+	overflow: hidden;
+}
+
 .top .window {
 	height: 40px;
 	width: 212px;
@@ -42,9 +46,6 @@ html {
 	text-align: right;
 	letter-spacing: 1px;
 }
-
-.buttons, .top {overflow: hidden;}
-
 
 .buttons span, .top span.remove {
 	float: left;
